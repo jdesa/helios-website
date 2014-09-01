@@ -27,44 +27,34 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #FF9966;
-    /*
-  background-image: url(sunbottom.png);
-  background-repeat:no-repeat;
-  background-attachment:fixed;
-  background-position: bottom; 
-    */
   background: url(sunbottomcentered.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
-
-body {
-  font-family: 'Varela', sans-serif;
-  color: #291a1a;
+  font-family: 'Open Sans', sans-serif;
+  color: black;
   text-align: center;
-  text-shadow: 0 1px 3px rgba(0,0,0,.5);
-  box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+  text-shadow: 0 0px 0px rgba(0,0,0,0);
+  box-shadow: 0 0px 0px rgba(0,0,0,0);
 }
 
 h1{
-    font-family: 'Bilbo', cursive;
+    font-family: 'Bilbo Swash Caps', cursive;
     color: black;
     font-weight: lighter;
     
 }
 
 h3{
-    color:white;
-    font-family: 'Bilbo', cursive;
+    color: white;
+    font-family: 'Bilbo Swash Caps', cursive;
+    font-weight: lighter;
 }
 
 .cover-heading {
 font-size: 200px;
 }
-/* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
   display: table;
   width: 100%;
@@ -92,9 +82,10 @@ font-size: 200px;
  * Header
  */
 .masthead-brand {
-  margin-top: 10px;
+  margin-top: 12px;
   margin-bottom: 10px;
-  font-size: 47px;
+  font-size: 40px;
+    color: #F1F224;
 }
 .masthead-nav{
     color: white;
@@ -109,7 +100,7 @@ font-size: 200px;
 .masthead-nav > li > a {
   padding-right: 0;
   padding-left: 0;
-  font-size: 19px;
+  font-size: 20px;
   font-weight: bold;
   color: #fff; /* IE8 proofing */
   color: #333;
@@ -119,13 +110,16 @@ font-size: 200px;
 .masthead-nav > li > a:hover,
 .masthead-nav > li > a:focus {
   background-color: transparent;
-  border-bottom-color: rgba(255,255,255,.25);
+  border-bottom-color: white;
+  color:white;
+  padding-bottom: 5px;
 }
 .masthead-nav > .active > a,
 .masthead-nav > .active > a:hover,
 .masthead-nav > .active > a:focus {
-  color: white;
-  border-bottom-color: #FF9966;
+  color: #F1F224;;
+  border-bottom-color: #F1F224;
+  padding-bottom:5px;
 }
 
 @media (min-width: 768px) {
@@ -245,7 +239,7 @@ font-size: 200px;
 
 body {
   padding-bottom: 40px;
-  color: #5a5a5a;
+  color: black;
 }
 
 
@@ -391,3 +385,8 @@ body {
     display: none;   
 }
 */
+
+.description{
+    text-align: justify;
+    text-justify: inter-word;    
+}
