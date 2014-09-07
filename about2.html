@@ -20,12 +20,6 @@
 
     <!-- Custom styles for this template -->
     <link href="styling.css" rel="stylesheet"> 
-    
-      <script>
-  $(document).ready(function(){
-    $('.carousel').carousel();
-  });
-      </script>
       
   </head> 
     <!-- Starting the body -->
@@ -40,7 +34,7 @@
                   <li class="active" class="test"><a href="/index.html";>Home</a></li>
                   <li class="active" class="test"><a href="/about.html";>About</a></li>
                   <li class="active" class="test"><a href="/media.html";>Watch</a></li>
-                <li class="active" class="test"><a href="/join.html">Join</a>                    </li>
+                <li class="active" class="test"><a href="#">Upcoming</a>                    </li>
               </ul>
              <h3 class="masthead-brand" style="display: inline-block">The Helios Ensemble</h3>
             </div>
@@ -48,78 +42,98 @@
           </div>
 
 
-<!-- Page 2: Carosel for pictures -->
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
-        <div id="this-carousel-id" class="carousel slide"><!-- class of slide for animation -->
       <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
         <li data-target="#myCarousel" data-slide-to="2"></li>
-        <li data-target="#myCarousel" data-slide-to="3"></li>
-        <li data-target="#myCarousel" data-slide-to="4"></li>
-        <li data-target="#myCarousel" data-slide-to="5"></li>
-        <li data-target="#myCarousel" data-slide-to="6"></li>
-        <li data-target="#myCarousel" data-slide-to="7"></li>
-        <li data-target="#myCarousel" data-slide-to="8"></li>
       </ol>
-  <div class="carousel-inner">
-    <div class="item active"><!-- class of active since it's the first item -->
-      <img class ="carousel-pic" src="Helios1.jpg" alt="" />
+            <div class="carousel-inner">
+        <div class="item active">
+          <iframe id="iframe" width="700px" height="450px" style="padding:20px;border:0px solid black;" src="test.html" frameborder="0" allowfullscreen scrolling="no" frameborder="no"></iframe>
+          <div class="container">
+            <div class="carousel-caption">
+            </div>
+          </div>
+        </div>
+      <div class="item">
+          <iframe id="iframe" width="700px" height="450px" style="padding:20px;border:0px solid black;" src="/Helios2.jpg" frameborder="0" allowfullscreen></iframe>
+          <div class="container">
+            <div class="carousel-caption">
+            </div>
+          </div>
+        </div>
+       <div class="item">
+          <iframe id="iframe" width="700px" height="450px" style="padding:20px;border:0px solid black;" src="/Helios3.jpg" frameborder="0" allowfullscreen></iframe>
+          <div class="container">
+            <div class="carousel-caption">
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <iframe id="iframe" width="700px" height="450px" style="padding:20px;border:0px solid black;" src="/Helios4.jpg" frameborder="0" allowfullscreen></iframe>
+          <div class="container">
+            <div class="carousel-caption">
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <iframe id="iframe" width="700px" height="450px" style="padding:20px;border:0px solid black;" src="/Helios5.jpg" frameborder="0" allowfullscreen></iframe>
+          <div class="container">
+            <div class="carousel-caption">
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <iframe id="iframe" width="700px" height="450px" style="padding:20px;border:0px solid black;" src="/Helios6.jpg" frameborder="0" allowfullscreen></iframe>
+          <div class="container">
+            <div class="carousel-caption">
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <iframe id="iframe" width="700px" height="450px" style="padding:20px;border:0px solid black;" src="/Helios7.jpg" frameborder="0" allowfullscreen></iframe>
+          <div class="container">
+            <div class="carousel-caption">
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <iframe id="iframe" width="700px" height="450px" style="padding:20px;border:0px solid black;" src="/Helios8.jpg" frameborder="0" allowfullscreen></iframe>
+          <div class="container">
+            <div class="carousel-caption">
+            </div>
+          </div>
+        </div>
       </div>
-    
-    <div class="item">
-      <img class ="carousel-pic" src="Helios2.jpg" alt="" />
-    </div>
-    <div class="item">
-      <img class ="carousel-pic" src="Helios3.jpg" alt="" />
-    </div>
-    <div class="item">
-      <img class ="carousel-pic" src="Helios4.jpg" alt="" />
-    </div>
-    <div class="item">
-      <img class ="carousel-pic" src="Helios5.jpg" alt="" />
-    </div>
-      <div class="item">
-      <img class ="carousel-pic" src="Helios6.jpg" alt="" />
-    </div>
-      <div class="item">
-      <img class ="carousel-pic" src="Helios7.jpg" alt="" />
-    </div>
-      <div class="item">
-      <img class ="carousel-pic" src="Helios8.jpg" alt="" />
-    </div>
-  </div><!-- /.carousel-inner -->
-  <!--  Next and Previous controls below
-        href values must reference the id for this carousel -->
-      </div>
-            <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-      </div><!-- /.carousel -->
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left" style="color:black;float:right"></span></a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right" style="color:black;float:left"></span></a>
+    </div><!-- /.carousel -->
         
      <!--- Mission, Goals, and About Us -->    
     <div class="container">
       <div class="row">
-        <div class="col-md-4 description">
+        <div class="col-md-4">
             <div class="bs-callout bs-callout-danger">
-        <h2 style="text-align: center">Our Concerts</h2>
-         <p> Just having performed Poulenc’s Mass in G, Sanctus & Benedictus, as well as Bruckner’s Christus Factus 
+          <h2>Our Concerts</h2>
+          <p class="description">Just having performed Poulenc’s Mass in G, Sanctus & Benedictus, as well as Bruckner’s Christus Factus 
 
 Est, and Byrd’s Sing Joyfully!, The Helios Ensemble is excited to perform movements from Bach’s B 
 
 Minor Mass, his St. Matthew Passion, and Brahms’ Fest-und Gedenksprüche as part of our Bach, Brahms 
 
-and Bratwurst concert this November. </p>
+and Bratwurst concert this November.
         </div>
             </div>
-        <div class="col-md-4 description">
-          <h2 style="text-align: center">About Ben</h2>
-          <p> Benjamin Hansen is the founder and artistic director of The Helios Ensemble, the artistic director of the Faculty/Staff choir at the University of Arizona, and Chancel Choir director at Tanque Verde Lutheran Church. Hansen received 
+        <div class="col-md-4">
+          <h2>About Ben</h2>
+          <p class="description">Benjamin Hansen is the founder and artistic director of The Helios Ensemble, the artistic director of the Faculty/Staff choir at the University of Arizona, and Chancel Choir director at Tanque Verde Lutheran Church. Hansen received 
 his BA from Yale, singing in “The Whiffenpoofs,” his MM in voice from The Catholic University of America, his MM in conducting from The College-Conservatory of Music at the University of Cincinnati, and is currently pursuing his doctorate in choral conducting at the University of Arizona. Hansen has studied conducting with Mark Gibson, Jerry Blackstone, Bruce Chamberlain, Fiora Contino, Robert Sund, Marguerite Brooks, Leo Nestor, Giselle Becker, Brett Scott, Earl Rivers, and Elizabeth Schauer. He was a Conducting Fellow at the Chorus America Conducting Symposium in 2010, Houston, TX, and he founded and directed the Washington Collegium, in Washington, D.C., conducting Howell’s Requiem and Poulenc’s Exultate Deo. Hansen was the director of choral activities at Cincinnati State College, directing the Cincinnati State Chorale’s performance of Whitacre’s Lux Aurumque, the national anthem at a Cincinnati Reds Game, and set of spirituals for the World Choir Games in 2012.</p>
         </div>
           
-        <div class="col-md-4 description">
-          <h2 style="text-align: center">Our Mission</h2>
+                  <div class="col-md-4">
+          <h2>Our Mission</h2>
           <p class="description">We love making great music through heartfelt singing. By reimagining vocal technique as dramatic
 
 pursuit, truly felt, we help choristers sing with authentic, flexible, and blended tone, that can project 
@@ -133,7 +147,6 @@ Ensemble. </p>
       </div>
     </div> 
 </div>
-        </div>
                   
 <!--- --->        
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
