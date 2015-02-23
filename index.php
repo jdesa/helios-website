@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" type="image/png" href="/centeredsun.png">
-<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'><link href='http://fonts.googleapis.com/css?family=Bilbo+Swash+Caps' rel='stylesheet' type='text/css'>s    <title>The Helios Ensemble</title>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'><link href='http://fonts.googleapis.com/css?family=Bilbo+Swash+Caps' rel='stylesheet' type='text/css'>    <title>The Helios Ensemble</title>
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
@@ -41,13 +41,11 @@
             </div>
           </div>
           </div>
+            <h1 class="cover-heading" style="font-size: 14vw">The Helios Ensemble</h1>
+            <p class="row"> The Helios Ensemble is a community of volunteers who perform advanced choral repertoire at a professional level. Come to our concert, "Music for Kings and Queens," featuring Handel, Purcell, Parry, Howells, and more!
 
-            
-                    <h1 class="cover-heading" style="font-size: 14vw">The Helios Ensemble</h1>
-            <p class="lead"></p>
-            <p class="lead">
-             The Helios Ensemble is a community of volunteers who perform advanced choral repertoire at a professional level. This November we are excited to perform excerpts of Bach’s B Minor Mass, and Brahms’ Fest- und Gedenksprüche.
-            </p>
+
+Enjoy TSO orchestra players, an Aeoling-Skinner Organ, and the Helios Ensemble Sunday, March 22nd, 3:30 P.M. at Christ the Kind Episcopal, 2800 West Ina Road, Tucson, AZ 8574110. Dollar donation suggested. </p>
           </div>
         </div>
       </div>
@@ -56,5 +54,6 @@
           
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-      </body>
+<script src="//assets.pcrl.co/js/jstracker.min.js"></script>      
+</body>
       </html>

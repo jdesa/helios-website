@@ -1,0 +1,72 @@
+<script type="text/javascript">
+    var timer = 900;
+
+    var interval = 1000;
+</script>
+
+<div id="template-container" class="container">
+    <input type="hidden" name="timer_value" id="timer_value" onchange="changeTimerValue();" value="2880">
+    <div class="logo"><img src=""></div>
+    <h1>Don't leave yet!</h1>
+
+    <h2>Order now and your transcription will be done in:</h2>
+
+    <div class="el5 timer-element">
+        <span id="min-1" class="input timer">4</span>
+        <span id="min-2" class="input timer">8</span>
+    </div>
+    <div class="timer-element divider">:</div>
+    <div class="el7 timer-element">
+        <span id="sec-1" class="input timer">0</span>
+        <span id="sec-2" class="input timer">0</span>
+    </div>
+    <div class="el3">
+        <a class="input in3 redirect btn-bg-color" href="https://fox_7719.feature.rev.com/checkout/audiofiles" target="_top">Checkout</a>
+    </div>
+    <a class="input close close-link" data-em="modal-close-link" id="close-link"></a>
+</div>
+
+<input type = "hidden" name="wrap_background" value= "rgba(255,255,255,.45)">
+
+
+<script>
+    function changeTimerValue(){
+        if(document.getElementById('timer_value').value != "")
+            timer = document.getElementById('timer_value').value;
+    }
+    
+    changeTimerValue();
+    document.addEventListener('DOMContentLoaded', function () {
+        window.addEventListener('message',function(event){
+            if(event.data == 'showPopup'){ 
+                if (window.picreel_timer_inrervalId) {
+                    clearInterval(window.picreel_timer_inrervalId);
+                }
+
+                window.picreel_timer_inrervalId = setInterval(function () {updateTimer();}, interval);
+
+                function updateTimer() {
+                    if (timer <= 0) {
+                        setTimer('00', '00');
+                        clearInterval(window.picreel_timer_inrervalId);
+                    }
+                    var mins = Math.floor(timer / 60);
+                    var secs = timer - (mins * 60) + '';
+                    mins = '' + mins;
+                    setTimer(mins, secs);
+                    timer--;
+                }
+
+                function setTimer(mins, secs) {
+                    document.getElementById('min-1').textContent = ((mins.substr(0, 1) && mins.substr(1, 1)) ? mins.substr(0, 1) : '0');
+                    document.getElementById('min-2').textContent = ((mins.substr(1, 1)) ? mins.substr(1, 1) : mins.substr(0, 1));
+                    document.getElementById('sec-1').textContent = ((secs.substr(0, 1) && secs.substr(1, 1)) ? secs.substr(0, 1) : '0');
+                    document.getElementById('sec-2').textContent = ((secs.substr(1, 1)) ? secs.substr(1, 1) : secs.substr(0, 1));
+                } 
+            }
+        });
+    });
+</script>
+
+
+<link href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
