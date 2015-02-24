@@ -41,7 +41,7 @@
             </div>
           </div>
           </div>
-            <h1 class="cover-heading" style="font-size: 14vw;margin-top:20%;margin-bottom:0%;">The Helios Ensemble</h1> 
+            <h1 class="cover-heading" style="font-size: 14vw;margin-top:18%;margin-bottom:0%;">The Helios Ensemble</h1> 
           
           <center>
             <div class="row" style="font-size:1.3em; width:60%;margin-left:50%, margin-right:50%; margin-top:30px; text-align: justify;
