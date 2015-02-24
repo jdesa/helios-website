@@ -41,15 +41,19 @@
             </div>
           </div>
           </div>
-            <h1 class="cover-heading" style="font-size: 14vw">The Helios Ensemble</h1>
-            <p class="row"> The Helios Ensemble is a community of volunteers who perform advanced choral repertoire at a professional level. Come to our concert, "Music for Kings and Queens," featuring Handel, Purcell, Parry, Howells, and more!
+            <h1 class="cover-heading" style="font-size: 14vw;margin-top:15%;margin-bottom:0%;">The Helios Ensemble</h1> 
+          
+          <center>
+            <div class="row" style="font-size:1.3em; width:60%;margin-left:50%, margin-right:50%; margin-top:30px; text-align: justify;
+    text-justify: inter-word;"> The Helios Ensemble is a community of volunteers who perform advanced choral repertoire at a professional level. Come to our concert, "Music for Kings and Queens," featuring Handel, Purcell, Parry, Howells, and more!
 
-
-Enjoy TSO orchestra players, an Aeoling-Skinner Organ, and the Helios Ensemble Sunday, March 22nd, 3:30 P.M. at Christ the Kind Episcopal, 2800 West Ina Road, Tucson, AZ 8574110. Dollar donation suggested. </p>
+<div style="margin-top:30px">
+Enjoy TSO orchestra players, an Aeoling-Skinner Organ, and the Helios Ensemble on Sunday, March 22nd, 3:30 P.M. at Christ the King Episcopal, 2800 West Ina Road, Tucson, AZ 8574110. Dollar donation suggested. </p>
+              </center>
+          </div>
+          </div>
           </div>
         </div>
-      </div>
-      </div>
 <!-- Page 2: Jumbotron with Helios Name and Info about the  -->
           
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>

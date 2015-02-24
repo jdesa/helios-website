@@ -223,19 +223,26 @@ font-size: 200px;
 /* Declare heights because of positioning of img element */
 .carousel .item {
   height: 500px;
+    vertical-align: middle;
   /*background-color: black;*/
 }
 .carousel-inner > .item > img {
   position: relative;
   top: 0;
   left: 0;
-  width: 800px;
+  max-width: 800px;
   height: auto;
   margin-left: auto;
   margin-right: auto;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
    border-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    vertical-align: middle;
+    line-height: 1000px;
+
+    
 
 }
 
